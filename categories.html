@@ -1,46 +1,51 @@
 <html>
     <head>
         <title>High On Coding Website</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+        <link rel ="stylesheet" type="text/css" href ="styles.css"></link>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+        
         <link rel ="stylesheet" type="text/css" href ="css/styles.css"></link>
     </head>
     <body>
-        <div class= "menu">
-            <div class ="div1">HighOnCoding</div>  
-            <div class ="div2">Home</div>
-            <div class ="div3">Categories</div>
+        <nav class="navbar navbar-expand-md bg-primary navbar-dark">
+            <a class="navbar-brand" href="#">HighOnCoding</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="categories.html">Categories</a>
+                    </li>          
+                </ul>
+            </div>  
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm "id="grid"><h4>Javascript</h4></div>
+                <div class="col-sm"id="grid"><h4>C#</h4></div>
+                <div class="col-sm"id="grid"><h4>Swift/Objc</h4></div>
+                  
+            </div>  
         </div>
-        <br><br>            
-                <div class= "lan">
-                    <div class ="landiv1">
-                        <h4>Javascript</h4>
-                        <p>23 articles</p>
-                    </div>       
-                    <div class ="landiv2">
-                        <h4>C#</h4>
-                        <p>12 articles</p>
-                    </div>    
-                    <div class ="landiv3">
-                        <h4>Swift/Objc</h4>
-                        <p>34 articles</p>
-                    </div>
-                </div>   
-                <div class= "lan">
-                        <div class ="landiv1">
-                            <h4>Database</h4>
-                            <p>15 articles</p>
-                        </div>       
-                        <div class ="landiv2">
-                            <h4>Python</h4>
-                            <p>33 articles</p>
-                        </div>    
-                        <div class ="landiv3">
-                            <h4>VB.NET</h4>
-                            <p>5 articles</p>
-                        </div>
-                    </div>   
-                
-                
-            
+        </div>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-sm " id="grid"><h4>Database</h4></div>
+                <div class="col-sm" id="grid"><h4>Python</h4></div>
+                <div class="col-sm" id="grid"><h4>VB.NET</h4></div>
+            </div>  
+        </div>
+         </div>
         
     </body>  
 </html>   

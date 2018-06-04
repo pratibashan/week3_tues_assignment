@@ -1,151 +1,40 @@
 
-.menu  {
-    background-color:#4163c5;
-    width: 90%;
-    height: 10%;
-    padding:1em;
-    color: white;        
+
+.navbar{
+    margin:20px;
+}
+.navbar-brand {
+    font-size: 40px;
+}
+.jumbotron {
+    margin:40px;
 }
 
-.menu div {
-     
-    display: inline;        
-}
-.div1 {
-    font-size: 50px;
-}
-.div2 {
-    margin-left: 80px;
-    font-size: 25px;
-}   
-.div3 {
-    margin-left:90px;
-    font-size:18px;
-    font-family: 'Times New Roman', Times, serif;
-}
-.review {
-    background-color: grey;
-    width:95%;   
-} 
-   
-.review h1,p {
-    
-    color:black;
-}
-
-.review h1 {
-    padding:.5em;
-}
-.watchkit {
-    width:95%; 
-}
-.hellodiv {
-    color: blue;
-}    
-.watchkit p {
-    color: black;
-    font-size: 15px;
-    
-}
-.footerdiv {
-    width:95%;
+#footerdiv {
     background-color: orange;
-    color:white;
-    font:20px;
-    
+    color: white;
+    padding:3px;
 }
-.footerdiv div{
-    
-    display:inline;
-    
-}
-.swift {
-    width:95%; 
-}
-.introdiv {
-    color: blue;
-    padding:.2em;
-    
-    
-}    
-.swift p {
-    color: black;
-    font-size: 15px;
-    
-}
-.swiftfooterdiv {
-    width:95%;
-    background-color: orange;
-    color:white;
-    font-size:15px;
-    
-}
-.swiftfooterdiv div{
-    display:inline;
-    
-}
-.flikes {
-    margin-left: 50px;
-}
- .lan {
-    width:90%;
-    /*height:300px*/
- }
 
-.lan div {
-    
-    background-color:#80808069;   
-    margin:30px;  
-    display:inline-table;
-    position: relative;
-     
+.col-sm h3 {
+    color:blue;
 }
-.landiv1 {
+.col-sm {
+    
+    margin: 20px;
+    
+}
 
-    width:200px;
-    height:200px; 
-    
+.row {
+    width: 70%;
+    margin:auto;  
     
 }
-.landiv2 {
+#grid {
+    background-color:#8080802e; 
     width:200px;
     height:200px;
+    padding: 80px 0px;
+    text-align: center;
     
- }
-  
-
- .landiv3 {
-    width:200px;
-    height:200px;
-   
- } 
- .lan h4 {
-     
-     position: absolute;  
-     top: 30%;
-     left:25%; 
-     font-family:Georgia, 'Times New Roman', Times, serif;
-     
-     font-size:20px;
-     
- }
-
- .lan p {
-    color:#1916168a; 
-    position: absolute;  
-    bottom: 1px;
-    left:30%; 
-    
-}
-
-    
-    
-
-
-
-
-
-
-
-
-
+}    
